@@ -29,7 +29,7 @@ const AboutDetails = () => {
         </ItemLayout>
 
         <ItemLayout
-          className={" custom-bg col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
+          className={" custom-bg col-span-full xs:col-span-6 lg:col-span-3 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
             10+ <sub className="font-semibold text-base">Individual & Group Projects</sub>
@@ -37,7 +37,7 @@ const AboutDetails = () => {
         </ItemLayout>
 
                 <ItemLayout
-          className={" custom-bg col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
+          className={" custom-bg col-span-full xs:col-span-6 lg:col-span-3 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
             4+ <sub className="font-semibold text-base">Collabarated Projects</sub>
@@ -45,7 +45,7 @@ const AboutDetails = () => {
         </ItemLayout>
 
         <ItemLayout
-          className={"custom-bg col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
+          className={"custom-bg col-span-full xs:col-span-6 lg:col-span-3 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
             3+{" "}
