@@ -8,7 +8,7 @@ const AboutDetails = () => {
       <div className="grid grid-cols-12 gap-4 xs:gap-6  md:gap-8 w-full">
         <ItemLayout
           className={
-            "custom-bg col-span-full lg:col-span-8 row-span-2 flex-col items-start"
+            "custom-bg col-span-full lg:col-span-8 row-span-3 flex-col items-start"
           }
         >
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
