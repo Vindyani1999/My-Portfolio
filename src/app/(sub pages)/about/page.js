@@ -64,9 +64,9 @@ export default function Home() {
               loading
             >
               <span>Computer Engineer</span>
-              <span>(UG)</span> | Full Stack Developer | Ui/UX Designer |
-              Android Developer | Programmer | Cloud Computing Enthusiast | Data
-              Science Enthusiast
+              <span>(UG)</span> | <span>Software Engineer</span>
+              <span>(Intern)</span> | Full Stack Developer | Ui/UX Designer |
+              Android Developer | Programmer 
             </p>
           </div>
         </div>
