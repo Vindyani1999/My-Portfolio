@@ -17,13 +17,12 @@ const AboutDetails = () => {
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
           <div>
   <ul >
-    <li>🌱 Works in Web Application Development (MERN) and AI including Machine Learning, Deep Learning and AI.</li>
+    <li>🌱 Works @Irusri Group as Software Engineer (Intern) </li>  
     <li>🎓 Currently pursuing BSc (Hons) degree in Computer Engineering.</li>
     <li>🏫 Studies at the Faculty of Engineering, University of Ruhuna, Galle, Sri Lanka.</li>
-    <li>🎯 Learning Cloud Computing, Web Hosting and Deep Learning models for Mobile Application </li>
-    <li>📚 Previously studied at Vijayaba National School, Hambantota, Sri Lanka.</li>
-    <li>🏡 Lives in Barawakumbuka, Hambantota, Sri Lanka.</li>
-    <li>🔍 Interest to take new challenges</li>
+    <li>🎯 Learning Full Stack Web Developing, Mobile Application Development and AI </li>
+    <li>🏡 Lives in Hambantota, Sri Lanka.</li>
+    <li>🔍 Interest to learn new things</li>
   </ul>
 </div></p>
           
@@ -34,6 +33,14 @@ const AboutDetails = () => {
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
             10+ <sub className="font-semibold text-base">Individual & Group Projects</sub>
+          </p>
+        </ItemLayout>
+
+                <ItemLayout
+          className={" custom-bg col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
+        >
+          <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
+            4+ <sub className="font-semibold text-base">Collabarated Projects</sub>
           </p>
         </ItemLayout>
 
