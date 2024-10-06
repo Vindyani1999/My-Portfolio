@@ -31,7 +31,7 @@ const AboutDetails = () => {
         <ItemLayout
           className={" custom-bg col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
-          <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
+          <p className="font-semibold w-full text-left text-2xl sm:text-4xl !p-0">
             10+ <sub className="font-semibold text-base">Individual & Group Projects</sub>
           </p>
         </ItemLayout>
@@ -39,7 +39,7 @@ const AboutDetails = () => {
                 <ItemLayout
           className={" custom-bg col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
-          <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
+          <p className="font-semibold w-full text-left text-2xl sm:text-4xl !p-0">
             4+ <sub className="font-semibold text-base">Collabarated Projects</sub>
           </p>
         </ItemLayout>
@@ -47,7 +47,7 @@ const AboutDetails = () => {
         <ItemLayout
           className={"custom-bg col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
-          <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
+          <p className="font-semibold w-full text-left text-2xl sm:text-4xl !p-0">
             3+{" "}
             <sub className="font-semibold text-base">Volenteering Events</sub>
           </p>
