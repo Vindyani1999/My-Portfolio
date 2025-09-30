@@ -1,5 +1,5 @@
 "use client";
-import ProjectLaypot from "./ProjectLaypot";
+import CertificateLayout from "./CertificateLayout";
 import { motion } from "framer-motion";
 
 const container = {
@@ -13,7 +13,7 @@ const container = {
   },
 };
 
-const ProjectList = ({ projects }) => {
+const CertificateList = ({ certificates }) => {
   return (
     <motion.div
       variants={container}
@@ -21,11 +21,11 @@ const ProjectList = ({ projects }) => {
       animate="show"
       className="w-full max-w-auto xl:max-w-6xl px-4 mx-auto lg:px-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
     >
-      {projects.map((project, index) => (
-        <ProjectLaypot key={index} {...project} />
+      {certificates.map((certificate, index) => (
+        <CertificateLayout key={index} {...certificate} />
       ))}
     </motion.div>
   );
 };
 
-export default ProjectList;
+export default CertificateList;

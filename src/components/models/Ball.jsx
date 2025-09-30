@@ -5,23 +5,25 @@ License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 Source: https://sketchfab.com/3d-models/crystal-ball-30618a3f909a4376af013a1d1de1cbba
 Title: Crystal Ball
 */
-"use client"
-import React, { useRef } from 'react'
-import { useGLTF } from '@react-three/drei'
+"use client";
+import React, { useRef } from "react";
+import { useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 
 export function Ball(props) {
-  const { nodes, materials } = useGLTF('models/ball-transformed.glb')
+  const { nodes, materials } = useGLTF("models/ball-transformed.glb");
   const modelRef = useRef();
-    useFrame(()=>{
-    modelRef.current.rotation.y += 0.007
-    })
+  useFrame(() => {
+    modelRef.current.rotation.y += 0.007;
+  });
   return (
-    <group {...props} dispose={null}
-    ref={modelRef}
-    position={[-0.5,-11,-18]}
-    scale={[1.3,1.3,1.3]}
-    rotation={[0.2,0,0]}
+    <group
+      {...props}
+      dispose={null}
+      ref={modelRef}
+      position={[-0.5, -11, -18]}
+      scale={[1.0, 1.0, 1.0]}
+      rotation={[0.2, 0, 0]}
     >
       <mesh
         castShadow
@@ -45,9 +47,7 @@ export function Ball(props) {
         rotation={[-Math.PI / 2, 0, 0]}
       />
     </group>
-  )
+  );
 }
 
-useGLTF.preload('models/ball-transformed.glb')
-
-
+useGLTF.preload("models/ball-transformed.glb");
