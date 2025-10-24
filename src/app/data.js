@@ -38,6 +38,48 @@ export const projectsData = [
     repoLink: "https://github.com/Vindyani1999/AI-Assistance-FOE",
     demoLink: "https://your-demo-link.com",
   },
+
+  {
+    id: 2,
+    name: "Nature Diary - Travel Blog",
+    description:
+      "A personal blog to document and share nature experiences, featuring beautiful imagery and engaging content.",
+    image:
+      "https://res.cloudinary.com/dlago1qei/image/upload/v1761299213/Screenshot_2025-10-20_093508_krx9ki.png",
+    technologies: [
+      "WordPress",
+      "Custom Themes",
+      "Custom Plugins",
+      "Infinity Free",
+    ],
+    // repoLink: "https://github.com/Vindyani1999/learning_platform",
+    liveLink: "http://eventago.infinityfreeapp.com/",
+  },
+
+  {
+    id: 2,
+    name: "Snaplytics - AI-Powered Analytics Extension",
+    description:
+      "The extension grabs opened tab's information as raw data and the Dashboard visualizes the processed data into meaningful insights.",
+    image:
+      "https://res.cloudinary.com/dlago1qei/image/upload/v1761299657/3babee9f-333b-4a96-a29f-00f6ffeaa7d8.png",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JS",
+      "TS",
+      "React",
+      "Chrome Extensions",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Python",
+      "DeepSeek LLM",
+    ],
+    repoLink: "https://github.com/Vindyani1999/snaplytics-frontend",
+    liveLink: "https://snaplytics-frontend.vercel.app/",
+  },
+
   {
     id: 2,
     name: "LearnSpot - Learning Platform",
